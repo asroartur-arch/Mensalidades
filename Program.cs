@@ -12,14 +12,14 @@ namespace Mensalidade
     {
         static void Main()
         {
-            // Vetores de dados (NOMES TEMPORARIOS)
+            // Vetores de dados (DADOS TEMPORARIOS!!!!!)
             string[] alunos = { "Nome1", "Nome2", "Nome3", "Nome4" };
             int[] anosEstudo = { 2, 7, 6, 1 };
             double[] mensalidadesBase = { 1000.00, 1000.00, 1200.00, 800.00 };
 
             Console.WriteLine("MENSALIDADES");
 
-            // Lista todos
+            // lista tudo
             for (int i = 0; i < alunos.Length; i++)
             {
                 string nome = alunos[i];
